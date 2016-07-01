@@ -1,0 +1,143 @@
+/* CSS reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+    margin:0;
+    padding:0;
+}
+html,body {
+    margin:0;
+    padding:0;
+    max-width: 100%;
+    overflow-y: visible;
+}
+
+.header1 {
+  /*background: linear-gradient(rgba(139,139,139,1.00), rgba(0,0,0,0.00));*/
+  background: rgba(255,255,255,1);
+  margin-top: 0px;
+  padding-top: 0px;
+  position: fixed;
+  z-index: +1;
+  min-height: 80px;
+  min-width: 100%;
+  /* Shadow under top bar */
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
+}
+
+div.header1 .title_header {
+  font-family: 'Josefin Sans', sans-serif;
+  color: rgba(204,143,0,1.00);
+  top: 20px;
+  left: 35px;
+  position: fixed;
+  z-index: +1;
+}
+
+.main_text {
+  font-family: "Lato", sans-serif;
+  position: relative;
+  top: 80px;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lower_banner{
+  font-family: "Lato", sans-serif;
+  position: relative;
+  top: 90px;
+}
+.l_banner_text {
+  float: left;
+  margin-left: 5%;
+  white-space: pre;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+    padding: 20px;
+}
+hr.line1{
+  border-style: solid;
+  border-width: 1% 0 0 0;
+  border-top-color: black;
+  left: 0;
+  max-width: 100%;
+}
+#designed_by {
+  float: right;
+  white-space: pre;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  text-align: right;
+  margin-right: 5%;
+  padding: 20px;
+}
+
+
+hr.line2{
+  position: relative;
+  top: 100px;
+  border-style: solid;
+  border-top-width: 1%;
+  border-top-color: black;
+  max-width: 90%;
+}
+div.entry{
+  position: relative;
+  font-family: 'Fjord One', sans-serif;
+  margin-top: 7%;
+  margin-bottom: 7%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+div.entry h3{
+  padding-left: 3%;
+  font-size: 130%;
+  border-bottom-style: solid;
+  border-width: 1px;
+}
+div.entry h5{
+  font-size: 90%;
+  font-weight: lighter;
+}
+div.entry p{
+  
+}
+div.entry a{
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  font-style: normal;
+  
+}
+
+@media (max-width:960px), handheld {
+  .main_text p{
+    position:relative;
+    left: 5px;
+    right: 5px;
+  }
+  hr.line2{
+    max-width: 100%;
+  }
+  div.entry{
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  div.entry h3{
+    padding-left: 1%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
